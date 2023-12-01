@@ -35,10 +35,10 @@
         {"key": "schema.__root_schema__.children.customField10.borderRadius"},
         {"key": "schema.__root_schema__.children.customField11.accentColor"},
         {"key": "schema.__root_schema__.children.customField11.borderRadius"},
-        {"key": "schema.__root_schema__.children.customField12.accentColor"},
-        {"key": "schema.__root_schema__.children.customField12.borderRadius"},
         {"key": "schema.__root_schema__.children.customField13.accentColor"},
-        {"key": "schema.__root_schema__.children.customField13.borderRadius"}
+        {"key": "schema.__root_schema__.children.customField13.borderRadius"},
+        {"key": "schema.__root_schema__.children.customField12.borderRadius"},
+        {"key": "schema.__root_schema__.children.customField12.accentColor"}
     ],
     "showReset": true,
     "flexVerticalAlignment": "start",
@@ -137,7 +137,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "1.5rem",
-    "originalBottomRow": 51,
+    "originalBottomRow": 137,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -272,9 +272,9 @@
                 "defaultValue": 0,
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(sign_up.sourceData, sign_up.formData, sign_up.fieldState)}}",
                 "dataType": "number",
-                "accessor": "height",
+                "accessor": "height (in inches)",
                 "isVisible": true,
-                "label": "height",
+                "label": "height (in inches)",
                 "originalIdentifier": "customField12",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(sign_up.sourceData, sign_up.formData, sign_up.fieldState)}}",
                 "children": {},
@@ -485,7 +485,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 10,
+    "originalTopRow": 8,
     "mobileLeftColumn": 10,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
