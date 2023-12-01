@@ -1,0 +1,16 @@
+{
+	"username": "john_doe2",
+	"first_name": "John",
+	"last_name": "Doe",
+	"birthday": "1990-01-01",
+	"date_joined": "2023-01-01",
+	"email": "john@example.com",
+	"phone": "1234567890",
+	"sex": "M",
+	"street": "123 Main St",
+	"state": "NJ",
+	"zip": "12345",
+	"country": "USA",
+	"height": 180,
+	"weight": 75
+}
