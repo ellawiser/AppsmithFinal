@@ -28,9 +28,9 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Sign up_current.initialize",
-              "name": "current.initialize",
-              "collectionId": "Sign up_current",
+              "id": "Sign up_storeCurrentDateTime.initialize",
+              "name": "storeCurrentDateTime.initialize",
+              "collectionId": "Sign up_storeCurrentDateTime",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
@@ -39,9 +39,9 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Sign up_current.startUpdatingDateTime",
-              "name": "current.startUpdatingDateTime",
-              "collectionId": "Sign up_current",
+              "id": "Sign up_storeCurrentDateTime.startUpdatingDateTime",
+              "name": "storeCurrentDateTime.startUpdatingDateTime",
+              "collectionId": "Sign up_storeCurrentDateTime",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
@@ -50,9 +50,9 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Sign up_current.storeCurrentDateTime",
-              "name": "current.storeCurrentDateTime",
-              "collectionId": "Sign up_current",
+              "id": "Sign up_storeCurrentDateTime.storeCurrentDateTime",
+              "name": "storeCurrentDateTime.storeCurrentDateTime",
+              "collectionId": "Sign up_storeCurrentDateTime",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [

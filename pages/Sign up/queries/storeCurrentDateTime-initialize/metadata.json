@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "storeCurrentDateTime",
-    "fullyQualifiedName": "current.storeCurrentDateTime",
+    "name": "initialize",
+    "fullyQualifiedName": "storeCurrentDateTime.initialize",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,7 +14,7 @@
       "userPermissions": []
     },
     "pageId": "Sign up",
-    "collectionId": "Sign up_current",
+    "collectionId": "Sign up_storeCurrentDateTime",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -37,7 +37,7 @@
     "userPermissions": [],
     "createdAt": "2023-12-01T19:42:38Z"
   },
-  "id": "Sign up_current.storeCurrentDateTime",
+  "id": "Sign up_storeCurrentDateTime.initialize",
   "deleted": false,
-  "gitSyncId": "656a2c4b59702d7a81a3a129_656a372e59702d7a81a3a13f"
+  "gitSyncId": "656a2c4b59702d7a81a3a129_656a372e59702d7a81a3a140"
 }
