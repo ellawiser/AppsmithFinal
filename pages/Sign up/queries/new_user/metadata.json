@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Sign up",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -64,7 +64,7 @@
     "userPermissions": [],
     "createdAt": "2023-12-01T01:49:41Z"
   },
-  "id": "Page1_new_user",
+  "id": "Sign up_new_user",
   "deleted": false,
   "gitSyncId": "65693919d7052359806a2ecf_65693bb5d7052359806a2edb"
 }
