@@ -1,6 +1,6 @@
 {
   "unpublishedCollection": {
-    "name": "isDataMatching",
+    "name": "JSObject1",
     "pageId": "Sign up",
     "pluginId": "js-plugin",
     "pluginType": "JS",
@@ -9,7 +9,7 @@
     "variables": [],
     "userPermissions": []
   },
-  "id": "Sign up_isDataMatching",
+  "id": "Sign up_JSObject1",
   "deleted": false,
   "gitSyncId": "656a2c4b59702d7a81a3a129_656b6468a7be3402277290fc"
 }

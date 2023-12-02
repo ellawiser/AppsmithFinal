@@ -1,5 +1,5 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
     "mobileBottomRow": 28,
     "widgetName": "DashboardData",
     "borderColor": "#E0DEDE",
@@ -7,7 +7,7 @@
     "displayName": "Tabs",
     "iconSVG": "/static/media/icon.9e3d67c0af9c0bd092dc56240314e18a.svg",
     "topRow": 13,
-    "bottomRow": 56,
+    "bottomRow": 36,
     "parentRowSpace": 10,
     "type": "TABS_WIDGET",
     "hideCard": false,
@@ -17,11 +17,7 @@
     "parentColumnSpace": 7.890625,
     "dynamicTriggerPathList": [],
     "leftColumn": 2,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "boxShadow"}
-    ],
+    "dynamicBindingPathList": [{"key": "accentColor"}],
     "children": [
         {
             "tabId": "tab1",
@@ -29,7 +25,7 @@
             "mobileBottomRow": 150,
             "widgetName": "Canvas116",
             "displayName": "Canvas",
-            "bottomRow": 390,
+            "bottomRow": 190,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -73,7 +69,7 @@
             "mobileBottomRow": 150,
             "widgetName": "Canvas117",
             "displayName": "Canvas",
-            "bottomRow": 390,
+            "bottomRow": 370,
             "topRow": 0,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
@@ -118,7 +114,7 @@
             "widgetName": "Canvas118",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 390,
+            "bottomRow": 190,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -161,7 +157,7 @@
             "widgetName": "Canvas119",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 390,
+            "bottomRow": 190,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -251,9 +247,9 @@
     "mobileTopRow": 13,
     "responsiveBehavior": "fill",
     "originalTopRow": 13,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "0px",
     "mobileLeftColumn": 8,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 56,
+    "originalBottomRow": 36,
     "minDynamicHeight": 15
 }

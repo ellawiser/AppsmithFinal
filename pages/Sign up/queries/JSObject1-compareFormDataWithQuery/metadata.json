@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "formatDate",
-    "fullyQualifiedName": "isDataMatching.formatDate",
+    "name": "compareFormDataWithQuery",
+    "fullyQualifiedName": "JSObject1.compareFormDataWithQuery",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,17 +14,13 @@
       "userPermissions": []
     },
     "pageId": "Sign up",
-    "collectionId": "Sign up_isDataMatching",
+    "collectionId": "Sign up_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
-      "jsArguments": [
-        {
-          "name": "inputDate"
-        }
-      ]
+      "jsArguments": []
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
@@ -39,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-02T17:41:43Z"
+    "createdAt": "2023-12-02T17:24:46Z"
   },
-  "id": "Sign up_isDataMatching.formatDate",
+  "id": "Sign up_JSObject1.compareFormDataWithQuery",
   "deleted": false,
-  "gitSyncId": "656a2c4b59702d7a81a3a129_656b6c57a7be340227729105"
+  "gitSyncId": "656a2c4b59702d7a81a3a129_656b685ea7be3402277290ff"
 }

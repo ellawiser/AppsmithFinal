@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "compareFormDataWithQuery",
-    "fullyQualifiedName": "isDataMatching.compareFormDataWithQuery",
+    "name": "transformStepData",
+    "fullyQualifiedName": "Utils.transformStepData",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Sign up",
-    "collectionId": "Sign up_isDataMatching",
+    "pageId": "Dashboard",
+    "collectionId": "Dashboard_Utils",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -22,7 +22,7 @@
       "selfReferencingDataPaths": [],
       "jsArguments": []
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-02T17:24:46Z"
+    "createdAt": "2023-12-02T19:58:03Z"
   },
-  "id": "Sign up_isDataMatching.compareFormDataWithQuery",
+  "id": "Dashboard_Utils.transformStepData",
   "deleted": false,
-  "gitSyncId": "656a2c4b59702d7a81a3a129_656b685ea7be3402277290ff"
+  "gitSyncId": "656a2c4b59702d7a81a3a129_656b8c4ba7be340227729117"
 }

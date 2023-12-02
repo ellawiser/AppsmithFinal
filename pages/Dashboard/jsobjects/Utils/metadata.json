@@ -8,8 +8,8 @@
     "archivedActions": [],
     "variables": [
       {
-        "name": "originalData",
-        "value": "[{\n  \"date\": \"Tue, 26 Nov 2019 00:00:00 GMT\",\n  \"id\": 8,\n  \"stepCount\": 23425\n}, {\n  \"date\": \"Mon, 17 Apr 2023 00:00:00 GMT\",\n  \"id\": 3,\n  \"stepCount\": 13000\n}]"
+        "name": "sleepData",
+        "value": "[{\n  \"NREMTime\": 12,\n  \"REMTime\": 3,\n  \"datetimeEnded\": \"Fri, 10 Nov 2023 10:15:00 GMT\",\n  \"datetimeStarted\": \"Thu, 09 Nov 2023 21:45:00 GMT\",\n  \"id\": 3\n}, {\n  \"NREMTime\": 12,\n  \"REMTime\": 3,\n  \"datetimeEnded\": \"Sat, 11 Nov 2023 11:15:00 GMT\",\n  \"datetimeStarted\": \"Fri, 10 Nov 2023 21:45:00 GMT\",\n  \"id\": 4\n}]"
       }
     ],
     "userPermissions": []

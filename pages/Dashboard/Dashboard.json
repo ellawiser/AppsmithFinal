@@ -65,6 +65,19 @@
               ],
               "timeoutInMillisecond": 10000
             }
+          ],
+          [
+            {
+              "id": "Dashboard_Utils.transformStepData",
+              "name": "Utils.transformStepData",
+              "collectionId": "Dashboard_Utils",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => {\n  return getSteps.data.map(item => ({\n    \"x\": Utils.formatDate(item.date),\n    \"y\": item.stepCount\n  }));\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
           ]
         ],
         "layoutOnLoadActionErrors": [],

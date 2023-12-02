@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "formatDate",
-    "fullyQualifiedName": "Utils.formatDate",
+    "fullyQualifiedName": "JSObject1.formatDate",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Dashboard",
-    "collectionId": "Dashboard_Utils",
+    "pageId": "Sign up",
+    "collectionId": "Sign up_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -22,7 +22,7 @@
       "selfReferencingDataPaths": [],
       "jsArguments": [
         {
-          "name": "dateString"
+          "name": "inputDate"
         }
       ]
     },
@@ -38,9 +38,10 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-02T17:41:43Z"
   },
-  "id": "Dashboard_Utils.formatDate",
+  "id": "Sign up_JSObject1.formatDate",
   "deleted": false,
-  "gitSyncId": "656a2c4b59702d7a81a3a129_656b94bca7be340227729128"
+  "gitSyncId": "656a2c4b59702d7a81a3a129_656b6c57a7be340227729105"
 }

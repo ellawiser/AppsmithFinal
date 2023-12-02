@@ -10,14 +10,14 @@
         "visuals",
         "visualisations"
     ],
-    "topRow": 5,
+    "topRow": 0,
     "bottomRow": 37,
     "parentRowSpace": 10,
     "type": "CHART_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 46,
     "chartData": {"0i823rr8vu": {
-        "data": "{{Utils.transformedData.data}}",
+        "data": "{{Utils.transformStepData.data}}",
         "seriesName": ""
     }},
     "animateLoading": true,
@@ -32,7 +32,7 @@
         {"key": "fontFamily"},
         {"key": "chartData.0i823rr8vu.data"}
     ],
-    "leftColumn": 22,
+    "leftColumn": 0,
     "customFusionChartConfig": {
         "type": "column2d",
         "dataSource": {
@@ -85,7 +85,7 @@
     "showDataPointLabel": false,
     "key": "8dw9jyvjdm",
     "isDeprecated": false,
-    "rightColumn": 46,
+    "rightColumn": 64,
     "widgetId": "be5adnmb2h",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "minWidth": 450,
@@ -98,10 +98,10 @@
     "isLoading": false,
     "mobileTopRow": 5,
     "responsiveBehavior": "fill",
-    "yAxisName": "Revenue($)",
-    "chartName": "Steps",
+    "yAxisName": "Steps",
+    "chartName": "",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 22,
-    "xAxisName": "Product Line",
+    "xAxisName": "Date",
     "chartType": "COLUMN_CHART"
 }

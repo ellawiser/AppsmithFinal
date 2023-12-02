@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "transformData",
-    "fullyQualifiedName": "Utils.transformData",
+    "name": "isDataMatching",
+    "fullyQualifiedName": "JSObject1.isDataMatching",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Dashboard",
-    "collectionId": "Dashboard_Utils",
+    "pageId": "Sign up",
+    "collectionId": "Sign up_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -34,9 +34,10 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-02T17:24:46Z"
   },
-  "id": "Dashboard_Utils.transformData",
+  "id": "Sign up_JSObject1.isDataMatching",
   "deleted": false,
-  "gitSyncId": "656a2c4b59702d7a81a3a129_656b8c4ba7be340227729117"
+  "gitSyncId": "656a2c4b59702d7a81a3a129_656b685ea7be3402277290fe"
 }
