@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "Utils",
+    "pageId": "Dashboard",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "originalData",
+        "value": "[{\n  \"date\": \"Tue, 26 Nov 2019 00:00:00 GMT\",\n  \"id\": 8,\n  \"stepCount\": 23425\n}, {\n  \"date\": \"Mon, 17 Apr 2023 00:00:00 GMT\",\n  \"id\": 3,\n  \"stepCount\": 13000\n}]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Dashboard_Utils",
+  "deleted": false,
+  "gitSyncId": "656a2c4b59702d7a81a3a129_656b5cd9a7be3402277290f5"
+}

@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Sign up",
-    "slug": "sign-up",
+    "name": "Dashboard",
+    "slug": "dashboard",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 690,
+          "bottomRow": 1210,
           "containerStyle": "none",
-          "snapRows": 54,
+          "snapRows": 128,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 87,
-          "minHeight": 560,
+          "minHeight": 1300,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,37 +28,40 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Sign up_storeCurrentDateTime.startUpdatingDateTime",
-              "name": "storeCurrentDateTime.startUpdatingDateTime",
-              "collectionId": "Sign up_storeCurrentDateTime",
+              "id": "Dashboard_getGoals",
+              "name": "getGoals",
               "confirmBeforeExecute": false,
-              "pluginType": "JS",
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Dashboard_getMacros",
+              "name": "getMacros",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
               "jsonPathKeys": [
-                "() => setInterval(() => storeCurrentDateTime.storeCurrentDateTime(), 1000)"
+                "appsmith.store.user.username"
               ],
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Sign up_storeCurrentDateTime.storeCurrentDateTime",
-              "name": "storeCurrentDateTime.storeCurrentDateTime",
-              "collectionId": "Sign up_storeCurrentDateTime",
+              "id": "Dashboard_getSleep",
+              "name": "getSleep",
               "confirmBeforeExecute": false,
-              "pluginType": "JS",
+              "pluginType": "API",
               "jsonPathKeys": [
-                "() => {\n  const formattedDate = new Date().toLocaleString();\n  storeValue(\"currentDateTime\", formattedDate);\n  return formattedDate;\n}"
+                "appsmith.store.user.username"
               ],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
-              "id": "Sign up_storeCurrentDateTime.initialize",
-              "name": "storeCurrentDateTime.initialize",
-              "collectionId": "Sign up_storeCurrentDateTime",
+              "id": "Dashboard_getSteps",
+              "name": "getSteps",
               "confirmBeforeExecute": false,
-              "pluginType": "JS",
+              "pluginType": "API",
               "jsonPathKeys": [
-                "() => storeCurrentDateTime.startUpdatingDateTime()"
+                "appsmith.store.user.username"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -66,7 +69,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Sign up",
+        "id": "Dashboard",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -77,5 +80,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "65693919d7052359806a2ecf_65693bb1d7052359806a2ed9"
+  "gitSyncId": "656a2c4b59702d7a81a3a129_656b5cd9a7be3402277290e3"
 }
