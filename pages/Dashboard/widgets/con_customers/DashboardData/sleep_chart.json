@@ -1,7 +1,7 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "mobileBottomRow": 37,
-    "widgetName": "Chart2",
+    "widgetName": "sleep_chart",
     "allowScroll": false,
     "displayName": "Chart",
     "iconSVG": "/static/media/icon.8eea39845729f7f4bfadeecd3810a09d.svg",
@@ -10,8 +10,8 @@
         "visuals",
         "visualisations"
     ],
-    "topRow": 1,
-    "bottomRow": 37,
+    "topRow": 8,
+    "bottomRow": 49,
     "parentRowSpace": 10,
     "type": "CHART_WIDGET",
     "hideCard": false,
@@ -85,7 +85,7 @@
     "showDataPointLabel": false,
     "key": "8dw9jyvjdm",
     "isDeprecated": false,
-    "rightColumn": 42,
+    "rightColumn": 45,
     "widgetId": "0l4i9x3ex3",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "minWidth": 450,
@@ -99,9 +99,11 @@
     "mobileTopRow": 5,
     "responsiveBehavior": "fill",
     "yAxisName": "REM time",
+    "originalTopRow": 8,
     "chartName": "",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 10,
     "xAxisName": "Date",
+    "originalBottomRow": 49,
     "chartType": "LINE_CHART"
 }

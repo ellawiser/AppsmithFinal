@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1210,
+          "bottomRow": 950,
           "containerStyle": "none",
           "snapRows": 128,
           "parentRowSpace": 1,
@@ -86,6 +86,19 @@
               "pluginType": "JS",
               "jsonPathKeys": [
                 "function () {\n  return getSteps.data.map(item => ({\n    \"x\": Utils.formatDate(item.date),\n    \"y\": item.stepCount\n  }));\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Dashboard_REMUtils.REMmsg",
+              "name": "REMUtils.REMmsg",
+              "collectionId": "Dashboard_REMUtils",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  const percent = REMUtils.compareREMTime();\n  if (percent > 0) {\n    return \"Your most recent sleep was better than average by \" + percent + \"%!\";\n  } else if (percent < 0) {\n    return \"Your most recent sleep was worse than average by \" + percent + \"%\";\n  } else {\n    return \"Your most recent sleep was the same as your average.\";\n  }\n}"
               ],
               "timeoutInMillisecond": 10000
             }

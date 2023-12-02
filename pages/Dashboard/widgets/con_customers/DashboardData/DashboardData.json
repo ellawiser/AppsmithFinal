@@ -6,8 +6,8 @@
     "isCanvas": true,
     "displayName": "Tabs",
     "iconSVG": "/static/media/icon.9e3d67c0af9c0bd092dc56240314e18a.svg",
-    "topRow": 13,
-    "bottomRow": 56,
+    "topRow": 2,
+    "bottomRow": 45,
     "parentRowSpace": 10,
     "type": "TABS_WIDGET",
     "hideCard": false,
@@ -114,7 +114,7 @@
             "widgetName": "Canvas118",
             "displayName": "Canvas",
             "topRow": 1,
-            "bottomRow": 390,
+            "bottomRow": 490,
             "parentRowSpace": 1,
             "type": "CANVAS_WIDGET",
             "canExtend": false,
@@ -194,7 +194,7 @@
             "flexLayers": []
         }
     ],
-    "borderWidth": 1,
+    "borderWidth": "0",
     "flexVerticalAlignment": "stretch",
     "key": "xfmpzpvd97",
     "backgroundColor": "#FFFFFF",
@@ -246,10 +246,10 @@
     "isLoading": false,
     "mobileTopRow": 13,
     "responsiveBehavior": "fill",
-    "originalTopRow": 13,
+    "originalTopRow": 2,
     "borderRadius": "0px",
     "mobileLeftColumn": 8,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 56,
+    "originalBottomRow": 57,
     "minDynamicHeight": 15
 }
