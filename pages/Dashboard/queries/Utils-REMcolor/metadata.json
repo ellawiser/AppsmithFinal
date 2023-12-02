@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "transformSleepData",
-    "fullyQualifiedName": "Utils.transformSleepData",
+    "name": "REMcolor",
+    "fullyQualifiedName": "Utils.REMcolor",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -16,13 +16,17 @@
     "pageId": "Dashboard",
     "collectionId": "Dashboard_Utils",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 0,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
-      "jsArguments": []
+      "jsArguments": [
+        {
+          "name": "better"
+        }
+      ]
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -34,10 +38,9 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-02T20:34:26Z"
+    "userPermissions": []
   },
-  "id": "Dashboard_Utils.transformSleepData",
+  "id": "Dashboard_Utils.REMcolor",
   "deleted": false,
-  "gitSyncId": "656a2c4b59702d7a81a3a129_656b94d2a7be34022772912a"
+  "gitSyncId": "656a2c4b59702d7a81a3a129_656ba300a7be340227729130"
 }

@@ -68,13 +68,24 @@
           ],
           [
             {
+              "id": "Dashboard_Utils.transformSleepData",
+              "name": "Utils.transformSleepData",
+              "collectionId": "Dashboard_Utils",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  return getSleep.data.map(item => ({\n    \"x\": Utils.formatDate(item.datetimeStarted),\n    \"y\": item.REMTime\n  }));\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Dashboard_Utils.transformStepData",
               "name": "Utils.transformStepData",
               "collectionId": "Dashboard_Utils",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "() => {\n  return getSteps.data.map(item => ({\n    \"x\": Utils.formatDate(item.date),\n    \"y\": item.stepCount\n  }));\n}"
+                "function () {\n  return getSteps.data.map(item => ({\n    \"x\": Utils.formatDate(item.date),\n    \"y\": item.stepCount\n  }));\n}"
               ],
               "timeoutInMillisecond": 10000
             }

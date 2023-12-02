@@ -6,12 +6,7 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "variables": [
-      {
-        "name": "sleepData",
-        "value": "[{\n  \"NREMTime\": 12,\n  \"REMTime\": 3,\n  \"datetimeEnded\": \"Fri, 10 Nov 2023 10:15:00 GMT\",\n  \"datetimeStarted\": \"Thu, 09 Nov 2023 21:45:00 GMT\",\n  \"id\": 3\n}, {\n  \"NREMTime\": 12,\n  \"REMTime\": 3,\n  \"datetimeEnded\": \"Sat, 11 Nov 2023 11:15:00 GMT\",\n  \"datetimeStarted\": \"Fri, 10 Nov 2023 21:45:00 GMT\",\n  \"id\": 4\n}]"
-      }
-    ],
+    "variables": [],
     "userPermissions": []
   },
   "id": "Dashboard_Utils",
