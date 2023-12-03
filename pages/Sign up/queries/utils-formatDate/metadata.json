@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "transformGoalData",
-    "fullyQualifiedName": "Utils.transformGoalData",
+    "name": "formatDate",
+    "fullyQualifiedName": "utils.formatDate",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,16 +13,20 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Dashboard",
-    "collectionId": "Dashboard_Utils",
+    "pageId": "Sign up",
+    "collectionId": "Sign up_utils",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
-      "jsArguments": []
+      "jsArguments": [
+        {
+          "name": "inputDate"
+        }
+      ]
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -35,8 +39,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-03T19:34:26Z"
-    "id": "Dashboard_Utils.transformGoalData",
-    "deleted": false,
-    "gitSyncId": "656cd7d5fa544132ef1937f2_656cd842fa544132ef193828"
+    "createdAt": "2023-12-03T19:36:07Z"
+  },
+  "id": "Sign up_utils.formatDate",
+  "deleted": false,
+  "gitSyncId": "656a2c4b59702d7a81a3a129_656b6c57a7be340227729105"
 }

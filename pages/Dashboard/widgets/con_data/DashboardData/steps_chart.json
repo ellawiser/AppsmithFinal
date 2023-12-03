@@ -85,7 +85,7 @@
     "showDataPointLabel": false,
     "key": "8dw9jyvjdm",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 52,
     "widgetId": "be5adnmb2h",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "minWidth": 450,
