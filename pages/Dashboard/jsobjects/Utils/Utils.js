@@ -36,6 +36,13 @@ export default {
 		}));
 		data.push(fats);
 		return data;
+	},
+
+	transformGoalData: function () {
+		return getGoals.data.map(item => ({
+			"x": item.description,
+			"y": putUtils.statusToInt(item.status)
+		}));
 	}
 
 };

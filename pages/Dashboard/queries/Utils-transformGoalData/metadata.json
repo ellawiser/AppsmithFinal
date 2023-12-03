@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "formatDate",
-    "fullyQualifiedName": "dateUtils.formatDate",
+    "name": "transformGoalData",
+    "fullyQualifiedName": "Utils.transformGoalData",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,19 +14,15 @@
       "userPermissions": []
     },
     "pageId": "Dashboard",
-    "collectionId": "Dashboard_dateUtils",
+    "collectionId": "Dashboard_Utils",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
-      "jsArguments": [
-        {
-          "name": "dateString"
-        }
-      ]
+      "jsArguments": []
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -39,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-02T23:47:32Z"
+    "createdAt": "2023-12-03T04:35:40Z"
   },
-  "id": "Dashboard_dateUtils.formatDate",
+  "id": "Dashboard_Utils.transformGoalData",
   "deleted": false,
-  "gitSyncId": "656a2c4b59702d7a81a3a129_656bc214a7be34022772915b"
+  "gitSyncId": "656a2c4b59702d7a81a3a129_656c059cf7b1234df75d20b0"
 }

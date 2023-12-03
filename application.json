@@ -6,11 +6,11 @@
     },
     {
       "id": "Home",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Sign up",
-      "isDefault": false
+      "isDefault": true
     }
   ],
   "viewMode": false,
