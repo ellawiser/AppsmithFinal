@@ -1,0 +1,81 @@
+{
+  "unpublishedPage": {
+    "name": "Sign up",
+    "slug": "sign-up",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 690,
+          "containerStyle": "none",
+          "snapRows": 54,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 87,
+          "minHeight": 560,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Sign up_storeCurrentDateTime.startUpdatingDateTime",
+              "name": "storeCurrentDateTime.startUpdatingDateTime",
+              "collectionId": "Sign up_storeCurrentDateTime",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => setInterval(() => storeCurrentDateTime.storeCurrentDateTime(), 1000)"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Sign up_storeCurrentDateTime.storeCurrentDateTime",
+              "name": "storeCurrentDateTime.storeCurrentDateTime",
+              "collectionId": "Sign up_storeCurrentDateTime",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => {\n  const formattedDate = new Date().toLocaleString();\n  storeValue(\"currentDateTime\", formattedDate);\n  return formattedDate;\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Sign up_storeCurrentDateTime.initialize",
+              "name": "storeCurrentDateTime.initialize",
+              "collectionId": "Sign up_storeCurrentDateTime",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => storeCurrentDateTime.startUpdatingDateTime()"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Sign up",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "65693919d7052359806a2ecf_65693bb1d7052359806a2ed9"
+}
