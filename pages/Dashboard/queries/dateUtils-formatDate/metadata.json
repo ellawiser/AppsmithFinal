@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "getGoalID",
-    "fullyQualifiedName": "putUtils.getGoalID",
+    "name": "formatDate",
+    "fullyQualifiedName": "dateUtils.formatDate",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Influencer",
-    "collectionId": "Influencer_putUtils",
+    "pageId": "Dashboard",
+    "collectionId": "Dashboard_dateUtils",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -22,10 +22,7 @@
       "selfReferencingDataPaths": [],
       "jsArguments": [
         {
-          "name": "username"
-        },
-        {
-          "name": "description"
+          "name": "dateString"
         }
       ]
     },
@@ -43,7 +40,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Influencer_putUtils.getGoalID",
+  "id": "Dashboard_dateUtils.formatDate",
   "deleted": false,
-  "gitSyncId": "656d074bf124c6052e19895a_656d0913f124c6052e1989fe"
+  "gitSyncId": "656d0729f10a10166f533a1e_656d0c8af10a10166f533ae1"
 }
