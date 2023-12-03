@@ -19,6 +19,10 @@
     {
       "id": "Influencer",
       "isDefault": false
+    },
+    {
+      "id": "Recipe",
+      "isDefault": false
     }
   ],
   "viewMode": false,
