@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "compareFormDataWithQuery",
-    "fullyQualifiedName": "JSObject1.compareFormDataWithQuery",
+    "name": "isDataMatching",
+    "fullyQualifiedName": "utils.isDataMatching",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,7 +14,7 @@
       "userPermissions": []
     },
     "pageId": "Sign up",
-    "collectionId": "Sign up_JSObject1",
+    "collectionId": "Sign up_utils",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-02T17:24:46Z"
+    "createdAt": "2023-12-03T19:36:07Z"
   },
-  "id": "Sign up_JSObject1.compareFormDataWithQuery",
+  "id": "Sign up_utils.isDataMatching",
   "deleted": false,
-  "gitSyncId": "656a2c4b59702d7a81a3a129_656b685ea7be3402277290ff"
+  "gitSyncId": "656a2c4b59702d7a81a3a129_656b685ea7be3402277290fe"
 }

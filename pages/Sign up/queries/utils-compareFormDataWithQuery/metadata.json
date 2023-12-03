@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "createStatusBarWidget",
-    "fullyQualifiedName": "createGoalsWidgets.createStatusBarWidget",
+    "name": "compareFormDataWithQuery",
+    "fullyQualifiedName": "utils.compareFormDataWithQuery",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,18 +13,14 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Dashboard",
-    "collectionId": "Dashboard_createGoalsWidgets",
+    "pageId": "Sign up",
+    "collectionId": "Sign up_utils",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
-      "jsArguments": [
-        {
-          "name": "status"
-        }
-      ]
+      "jsArguments": []
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
@@ -38,9 +34,10 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-03T19:36:07Z"
   },
-  "id": "Dashboard_createGoalsWidgets.createStatusBarWidget",
+  "id": "Sign up_utils.compareFormDataWithQuery",
   "deleted": false,
-  "gitSyncId": "656a2c4b59702d7a81a3a129_656c092cf7b1234df75d20c4"
+  "gitSyncId": "656a2c4b59702d7a81a3a129_656b685ea7be3402277290ff"
 }
