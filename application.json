@@ -11,6 +11,10 @@
     {
       "id": "Sign up",
       "isDefault": true
+    },
+    {
+      "id": "Dietitian",
+      "isDefault": false
     }
   ],
   "viewMode": false,
