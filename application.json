@@ -15,6 +15,10 @@
     {
       "id": "Dietitian",
       "isDefault": false
+    },
+    {
+      "id": "Influencer",
+      "isDefault": false
     }
   ],
   "viewMode": false,
