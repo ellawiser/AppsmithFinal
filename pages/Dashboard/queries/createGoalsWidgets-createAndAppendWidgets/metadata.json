@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "formatDate",
-    "fullyQualifiedName": "dateUtils.formatDate",
+    "name": "createAndAppendWidgets",
+    "fullyQualifiedName": "createGoalsWidgets.createAndAppendWidgets",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,7 +14,7 @@
       "userPermissions": []
     },
     "pageId": "Dashboard",
-    "collectionId": "Dashboard_dateUtils",
+    "collectionId": "Dashboard_createGoalsWidgets",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -22,7 +22,7 @@
       "selfReferencingDataPaths": [],
       "jsArguments": [
         {
-          "name": "dateString"
+          "name": "widgetName"
         }
       ]
     },
@@ -38,10 +38,9 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-02T23:47:32Z"
+    "userPermissions": []
   },
-  "id": "Dashboard_dateUtils.formatDate",
+  "id": "Dashboard_createGoalsWidgets.createAndAppendWidgets",
   "deleted": false,
-  "gitSyncId": "656a2c4b59702d7a81a3a129_656bc214a7be34022772915b"
+  "gitSyncId": "656a2c4b59702d7a81a3a129_656c092cf7b1234df75d20c0"
 }

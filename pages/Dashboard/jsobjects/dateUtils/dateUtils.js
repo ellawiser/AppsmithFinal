@@ -17,6 +17,7 @@ export default {
 
 	formatDate: function (dateString) {
 		const dateObject = new Date(dateString);
-		return dateObject.toLocaleDateString('en-US', { month: '2-digit', day: '2-digit', year: 'numeric' });
+		const options = { timeZone: 'UTC', month: '2-digit', day: '2-digit', year: 'numeric' };
+		return dateObject.toLocaleDateString('en-US', options);
 	}
 };

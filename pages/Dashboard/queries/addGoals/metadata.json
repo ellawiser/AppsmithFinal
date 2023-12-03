@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "getGoals",
+    "name": "addGoals",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -32,7 +32,7 @@
       "queryParameters": [],
       "body": "",
       "bodyFormData": [],
-      "httpMethod": "GET",
+      "httpMethod": "POST",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -43,7 +43,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "path"
@@ -59,9 +59,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-02T19:17:04Z"
+    "createdAt": "2023-12-03T03:39:29Z"
   },
-  "id": "Dashboard_getGoals",
+  "id": "Dashboard_addGoals",
   "deleted": false,
-  "gitSyncId": "656a2c4b59702d7a81a3a129_656b82b0a7be34022772910a"
+  "gitSyncId": "656a2c4b59702d7a81a3a129_656bf871a7be340227729170"
 }
