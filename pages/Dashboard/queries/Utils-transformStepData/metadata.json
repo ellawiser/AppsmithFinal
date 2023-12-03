@@ -16,7 +16,7 @@
     "pageId": "Dashboard",
     "collectionId": "Dashboard_Utils",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 0,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-02T19:58:03Z"
+    "createdAt": "2023-12-03T19:34:26Z"
   },
   "id": "Dashboard_Utils.transformStepData",
   "deleted": false,
-  "gitSyncId": "656a2c4b59702d7a81a3a129_656b8c4ba7be340227729117"
+  "gitSyncId": "656cd7d5fa544132ef1937f2_656cd842fa544132ef193829"
 }
