@@ -28,19 +28,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Sign up_storeCurrentDateTime.storeCurrentDateTime",
-              "name": "storeCurrentDateTime.storeCurrentDateTime",
-              "collectionId": "Sign up_storeCurrentDateTime",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "() => {\n  const formattedDate = new Date().toLocaleString();\n  storeValue(\"currentDateTime\", formattedDate);\n  return formattedDate;\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "Sign up_storeCurrentDateTime.startUpdatingDateTime",
               "name": "storeCurrentDateTime.startUpdatingDateTime",
               "collectionId": "Sign up_storeCurrentDateTime",
@@ -48,6 +35,17 @@
               "pluginType": "JS",
               "jsonPathKeys": [
                 "() => setInterval(() => storeCurrentDateTime.storeCurrentDateTime(), 1000)"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Sign up_storeCurrentDateTime.storeCurrentDateTime",
+              "name": "storeCurrentDateTime.storeCurrentDateTime",
+              "collectionId": "Sign up_storeCurrentDateTime",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => {\n  const formattedDate = new Date().toLocaleString();\n  storeValue(\"currentDateTime\", formattedDate);\n  return formattedDate;\n}"
               ],
               "timeoutInMillisecond": 10000
             }
