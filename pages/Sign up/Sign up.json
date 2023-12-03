@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1240,
+          "bottomRow": 690,
           "containerStyle": "none",
           "snapRows": 54,
           "parentRowSpace": 1,
@@ -28,24 +28,13 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Sign up_storeCurrentDateTime.initialize",
-              "name": "storeCurrentDateTime.initialize",
-              "collectionId": "Sign up_storeCurrentDateTime",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "() => startUpdatingDateTime.startUpdatingDateTime()"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "Sign up_storeCurrentDateTime.startUpdatingDateTime",
               "name": "storeCurrentDateTime.startUpdatingDateTime",
               "collectionId": "Sign up_storeCurrentDateTime",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "() => setInterval(() => startUpdatingDateTime.storeCurrentDateTime(), 1000)"
+                "() => setInterval(() => storeCurrentDateTime.storeCurrentDateTime(), 1000)"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -57,6 +46,19 @@
               "pluginType": "JS",
               "jsonPathKeys": [
                 "() => {\n  const formattedDate = new Date().toLocaleString();\n  storeValue(\"currentDateTime\", formattedDate);\n  return formattedDate;\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Sign up_storeCurrentDateTime.initialize",
+              "name": "storeCurrentDateTime.initialize",
+              "collectionId": "Sign up_storeCurrentDateTime",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => storeCurrentDateTime.startUpdatingDateTime()"
               ],
               "timeoutInMillisecond": 10000
             }

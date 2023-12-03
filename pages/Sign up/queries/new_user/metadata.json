@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/u/newUser"
+        "url": "web:4000/u/users"
       },
       "invalids": [],
       "messages": [],
