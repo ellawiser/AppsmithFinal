@@ -35,9 +35,8 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-03T19:36:07Z"
-  },
-  "id": "Dashboard_Utils.transformGoalData",
-  "deleted": false,
-  "gitSyncId": "656a2c4b59702d7a81a3a129_656c059cf7b1234df75d20b0"
+    "createdAt": "2023-12-03T19:34:26Z"
+    "id": "Dashboard_Utils.transformGoalData",
+    "deleted": false,
+    "gitSyncId": "656cd7d5fa544132ef1937f2_656cd842fa544132ef193828"
 }
