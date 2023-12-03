@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "transformGoalData",
-    "fullyQualifiedName": "Utils.transformGoalData",
+    "name": "getGoalID",
+    "fullyQualifiedName": "putUtils.getGoalID",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,15 +14,22 @@
       "userPermissions": []
     },
     "pageId": "Dashboard",
-    "collectionId": "Dashboard_Utils",
+    "collectionId": "Dashboard_putUtils",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
-      "jsArguments": []
+      "jsArguments": [
+        {
+          "name": "username"
+        },
+        {
+          "name": "description"
+        }
+      ]
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -34,10 +41,9 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-03T19:36:07Z"
+    "userPermissions": []
   },
-  "id": "Dashboard_Utils.transformGoalData",
+  "id": "Dashboard_putUtils.getGoalID",
   "deleted": false,
-  "gitSyncId": "656a2c4b59702d7a81a3a129_656c059cf7b1234df75d20b0"
+  "gitSyncId": "656cd8a7fa544132ef193862_656cf0b3fa544132ef1938a0"
 }

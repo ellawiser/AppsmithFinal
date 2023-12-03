@@ -16,5 +16,14 @@ export default {
 		} else {
 			return 10;
 		}
+	},
+
+	getGoalID: function(username, description) {
+    for (const goal of getGoals.data) {
+      if (goal.username === username && goal.description === description) {
+        return goal.id;
+      }
+    }
+		throw new Error(`Goal with username '${username}' and description '${description}' not found.`);
 	}
 };
