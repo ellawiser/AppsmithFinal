@@ -11,6 +11,18 @@
     {
       "id": "Sign up",
       "isDefault": true
+    },
+    {
+      "id": "Dietitian",
+      "isDefault": false
+    },
+    {
+      "id": "Influencer",
+      "isDefault": false
+    },
+    {
+      "id": "Recipe",
+      "isDefault": false
     }
   ],
   "viewMode": false,
