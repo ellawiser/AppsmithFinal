@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO public.users (\"gender\",\"latitude\",\"longitude\",\"dob\",\"phone\",\"email\",\"image\",\"country\",\"name\") VALUES ('{{(Table1.newRow || {}).gender}}','{{(Table1.newRow || {}).latitude}}','{{(Table1.newRow || {}).longitude}}','{{(Table1.newRow || {}).dob}}','{{(Table1.newRow || {}).phone}}','{{(Table1.newRow || {}).email}}','{{(Table1.newRow || {}).image}}','{{(Table1.newRow || {}).country}}','{{(Table1.newRow || {}).name}}')",
+      "body": "INSERT INTO public.users (\"gender\",\"latitude\",\"longitude\",\"dob\",\"phone\",\"email\",\"image\",\"country\",\"name\") VALUES ('{{(DietitianClients.newRow || {}).gender}}','{{(Table1.newRow || {}).latitude}}','{{(Table1.newRow || {}).longitude}}','{{(DietitianClients.newRow || {}).dob}}','{{(Table1.newRow || {}).phone}}','{{(DietitianClients.newRow || {}).email}}','{{(Table1.newRow || {}).image}}','{{(Table1.newRow || {}).country}}','{{(Table1.newRow || {}).name}}')",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,10 +36,10 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "(DietitianClients.newRow || {}).dob",
+      "(DietitianClients.newRow || {}).email",
+      "(DietitianClients.newRow || {}).gender",
       "(Table1.newRow || {}).country",
-      "(Table1.newRow || {}).dob",
-      "(Table1.newRow || {}).email",
-      "(Table1.newRow || {}).gender",
       "(Table1.newRow || {}).image",
       "(Table1.newRow || {}).latitude",
       "(Table1.newRow || {}).longitude",
@@ -49,7 +49,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-04T00:25:40Z"
   },
   "id": "Dietitian_Insert_public_users1",
   "deleted": false,

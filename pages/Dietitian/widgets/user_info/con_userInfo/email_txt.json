@@ -27,7 +27,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "email: {{appsmith.store.user.email}}",
+    "text": "email: {{appsmith.store.clientEmail}}",
     "key": "jihz2yuad5",
     "isDeprecated": false,
     "rightColumn": 53,

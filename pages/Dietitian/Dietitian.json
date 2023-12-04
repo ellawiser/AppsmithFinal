@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1300,
+          "bottomRow": 900,
           "containerStyle": "none",
           "snapRows": 128,
           "parentRowSpace": 1,
@@ -60,68 +60,13 @@
           ],
           [
             {
-              "id": "Dietitian_getMacros",
-              "name": "getMacros",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.user.username"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Dietitian_getSleep",
-              "name": "getSleep",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.user.username"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "Dietitian_Total_record_public_users1",
               "name": "Total_record_public_users1",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "Table1.searchText"
+                "DietitianClients.searchText"
               ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Dietitian_Utils.transformSleepData",
-              "name": "Utils.transformSleepData",
-              "collectionId": "Dietitian_Utils",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Dietitian_Utils.transformMacrosData",
-              "name": "Utils.transformMacrosData",
-              "collectionId": "Dietitian_Utils",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Dietitian_REMUtils.REMmsg",
-              "name": "REMUtils.REMmsg",
-              "collectionId": "Dietitian_REMUtils",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
