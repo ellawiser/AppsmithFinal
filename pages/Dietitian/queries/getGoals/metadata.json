@@ -43,7 +43,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "path"
@@ -59,7 +59,7 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-02T19:17:04Z"
+    "createdAt": "2023-12-03T22:59:24Z"
   },
   "id": "Dietitian_getGoals",
   "deleted": false,

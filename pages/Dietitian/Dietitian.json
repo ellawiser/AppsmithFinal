@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 950,
+          "bottomRow": 830,
           "containerStyle": "none",
           "snapRows": 128,
           "parentRowSpace": 1,
@@ -27,15 +27,6 @@
         },
         "layoutOnLoadActions": [
           [
-            {
-              "id": "Dietitian_Utils.transformGoalData",
-              "name": "Utils.transformGoalData",
-              "collectionId": "Dietitian_Utils",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
             {
               "id": "Dietitian_getClients",
               "name": "getClients",
@@ -59,16 +50,6 @@
           ],
           [
             {
-              "id": "Dietitian_getGoals",
-              "name": "getGoals",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.user.username"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "Dietitian_getMacros",
               "name": "getMacros",
               "confirmBeforeExecute": false,
@@ -81,16 +62,6 @@
             {
               "id": "Dietitian_getSleep",
               "name": "getSleep",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.user.username"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Dietitian_getSteps",
-              "name": "getSteps",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
