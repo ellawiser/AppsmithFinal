@@ -23,7 +23,7 @@
       "selfReferencingDataPaths": [],
       "jsArguments": []
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -36,7 +36,7 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-03T22:59:24Z"
+    "createdAt": "2023-12-02T20:34:26Z"
   },
   "id": "Dietitian_Utils.transformSleepData",
   "deleted": false,

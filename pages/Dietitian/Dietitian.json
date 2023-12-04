@@ -46,12 +46,10 @@
                 "appsmith.store.user.username"
               ],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
-              "id": "Dietitian_getMacros",
-              "name": "getMacros",
+              "id": "Dietitian_get_qualSince",
+              "name": "get_qualSince",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [

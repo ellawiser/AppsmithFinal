@@ -6,8 +6,8 @@
         {"key": "borderRadius"},
         {"key": "boxShadow"}
     ],
-    "topRow": 30,
-    "bottomRow": 90,
+    "topRow": 23,
+    "bottomRow": 83,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "shouldScrollContents": false,
