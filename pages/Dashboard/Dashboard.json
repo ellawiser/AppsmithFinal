@@ -83,7 +83,6 @@
           ],
           [
             {
-              "id": "Dashboard_Utils.transformGoalData",
               "name": "Utils.transformGoalData",
               "collectionId": "Dashboard_Utils",
               "confirmBeforeExecute": false,
