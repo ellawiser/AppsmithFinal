@@ -12,7 +12,7 @@
         "group"
     ],
     "topRow": 13,
-    "bottomRow": 25,
+    "bottomRow": 23,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -34,7 +34,7 @@
         "widgetName": "sleep_msg_con",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 120,
+        "bottomRow": 100,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -90,6 +90,6 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 43,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 25,
+    "originalBottomRow": 23,
     "minDynamicHeight": 10
 }

@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "clients",
+    "name": "getClients",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -37,7 +37,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "path"
@@ -55,7 +55,7 @@
     "userPermissions": [],
     "createdAt": "2023-12-04T00:15:14Z"
   },
-  "id": "Dietitian_clients",
+  "id": "Dietitian_getClients",
   "deleted": false,
   "gitSyncId": "656d074bf124c6052e19895a_656d1a12f124c6052e198a2e"
 }

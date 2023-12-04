@@ -28,6 +28,37 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Dietitian_Utils.transformGoalData",
+              "name": "Utils.transformGoalData",
+              "collectionId": "Dietitian_Utils",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Dietitian_getClients",
+              "name": "getClients",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.user.username"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Dietitian_getRecipes",
+              "name": "getRecipes",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.user.username"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Dietitian_getGoals",
               "name": "getGoals",
               "confirmBeforeExecute": false,
@@ -70,40 +101,20 @@
           ],
           [
             {
-              "id": "Dietitian_Select_public_users1",
-              "name": "Select_public_users1",
+              "id": "Dietitian_Total_record_public_users1",
+              "name": "Total_record_public_users1",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "Table1.searchText",
-                "Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "Table1.sortOrder.column || 'id'",
-                "Table1.pageSize",
-                "Table1.pageOffset"
+                "Table1.searchText"
               ],
               "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Dietitian_Utils.transformGoalData",
-              "name": "Utils.transformGoalData",
-              "collectionId": "Dietitian_Utils",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
             {
               "id": "Dietitian_Utils.transformSleepData",
               "name": "Utils.transformSleepData",
-              "collectionId": "Dietitian_Utils",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Dietitian_Utils.transformStepData",
-              "name": "Utils.transformStepData",
               "collectionId": "Dietitian_Utils",
               "confirmBeforeExecute": false,
               "pluginType": "JS",
@@ -119,18 +130,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Dietitian_Total_record_public_users1",
-              "name": "Total_record_public_users1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table1.searchText"
-              ],
               "timeoutInMillisecond": 10000
             }
           ],
