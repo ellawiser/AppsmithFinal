@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 19,
-    "bottomRow": 23,
+    "topRow": 13,
+    "bottomRow": 29,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -27,7 +27,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "birthday: {{appsmith.store.user.birthday.substring(appsmith.store.user.birthday.length - 13, appsmith.store.user.birthday)}}",
+    "text": "{{get_qualSince.data}}",
     "key": "jihz2yuad5",
     "isDeprecated": false,
     "rightColumn": 40,
@@ -48,11 +48,11 @@
     "isLoading": false,
     "mobileTopRow": 5,
     "responsiveBehavior": "fill",
-    "originalTopRow": 19,
+    "originalTopRow": 17,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 47,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 23,
+    "originalBottomRow": 21,
     "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }

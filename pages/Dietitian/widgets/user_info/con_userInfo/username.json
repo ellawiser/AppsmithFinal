@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 1,
-    "bottomRow": 7,
+    "bottomRow": 5,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -30,7 +30,7 @@
     "text": "username: {{appsmith.store.user.username}}",
     "key": "jihz2yuad5",
     "isDeprecated": false,
-    "rightColumn": 28,
+    "rightColumn": 42,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "8mw475wkdq",

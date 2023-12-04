@@ -76,7 +76,7 @@
     "dynamicPropertyPathList": [],
     "displayName": "Table",
     "bottomRow": 21,
-    "columnWidthMap": {"clientUsername": 299},
+    "columnWidthMap": {"clientUsername": 392},
     "parentRowSpace": 10,
     "hideCard": false,
     "onAddNewRowSave": "{{Insert_public_users1.run(() => {\n            showAlert(\"Successfully created!\");\n            Select_public_users1.run()\n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
