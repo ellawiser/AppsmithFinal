@@ -1,0 +1,8 @@
+{
+	"username": {{appsmith.store.user.username}},
+	"date": {{dateUtils.formatDateForDB(date_macros.formattedDate)}},
+	"calorieCount": {{cals.text}},
+	"proteinCount": {{protein.text}},
+	"carbCount": {{carbs.text}},
+	"fatCount": {{fat.text}}
+}

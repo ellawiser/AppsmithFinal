@@ -1,0 +1,147 @@
+{
+  "unpublishedPage": {
+    "name": "Influencer",
+    "slug": "influencer",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 950,
+          "containerStyle": "none",
+          "snapRows": 128,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 87,
+          "minHeight": 1300,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Influencer_getGoals",
+              "name": "getGoals",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.user.username"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Influencer_getMacros",
+              "name": "getMacros",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.user.username"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Influencer_getSleep",
+              "name": "getSleep",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.user.username"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Influencer_getSteps",
+              "name": "getSteps",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.user.username"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Influencer_Utils.transformGoalData",
+              "name": "Utils.transformGoalData",
+              "collectionId": "Influencer_Utils",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  return getGoals.data.map(item => ({\n    \"x\": item.description,\n    \"y\": putUtils.statusToInt(item.status)\n  }));\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Influencer_Utils.transformSleepData",
+              "name": "Utils.transformSleepData",
+              "collectionId": "Influencer_Utils",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  return getSleep.data.map(item => ({\n    \"x\": dateUtils.formatDate(item.datetimeStarted),\n    \"y\": item.REMTime\n  }));\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Influencer_Utils.transformStepData",
+              "name": "Utils.transformStepData",
+              "collectionId": "Influencer_Utils",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  return getSteps.data.map(item => ({\n    \"x\": dateUtils.formatDate(item.date),\n    \"y\": item.stepCount\n  }));\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Influencer_Utils.transformMacrosData",
+              "name": "Utils.transformMacrosData",
+              "collectionId": "Influencer_Utils",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  const data = [];\n  const calories = getMacros.data.map(item => ({\n    \"x\": dateUtils.formatDate(item.date),\n    \"y\": item.calorieCount\n  }));\n  data.push(calories);\n  const protein = getMacros.data.map(item => ({\n    \"x\": dateUtils.formatDate(item.date),\n    \"y\": item.proteinCount\n  }));\n  data.push(protein);\n  const carbs = getMacros.data.map(item => ({\n    \"x\": dateUtils.formatDate(item.date),\n    \"y\": item.carbCount\n  }));\n  data.push(carbs);\n  const fats = getMacros.data.map(item => ({\n    \"x\": dateUtils.formatDate(item.date),\n    \"y\": item.fatCount\n  }));\n  data.push(fats);\n  return data;\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Influencer_REMUtils.REMmsg",
+              "name": "REMUtils.REMmsg",
+              "collectionId": "Influencer_REMUtils",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  const percent = REMUtils.compareREMTime();\n  if (percent > 0) {\n    return \"Your most recent sleep was better than average by \" + percent + \"%!\";\n  } else if (percent < 0) {\n    return \"Your most recent sleep was worse than average by \" + percent + \"%\";\n  } else {\n    return \"Your most recent sleep was the same as your average.\";\n  }\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Influencer",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "656d074bf124c6052e19895a_656d090ef124c6052e1989ca"
+}

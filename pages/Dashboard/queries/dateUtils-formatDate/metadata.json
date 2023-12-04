@@ -38,10 +38,9 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-12-02T23:47:32Z"
+    "userPermissions": []
   },
   "id": "Dashboard_dateUtils.formatDate",
   "deleted": false,
-  "gitSyncId": "656a2c4b59702d7a81a3a129_656bc214a7be34022772915b"
+  "gitSyncId": "656d0729f10a10166f533a1e_656d0c8af10a10166f533ae1"
 }

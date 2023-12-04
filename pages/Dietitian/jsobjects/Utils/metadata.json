@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Utils",
+    "pageId": "Dietitian",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Dietitian_Utils",
+  "deleted": false,
+  "gitSyncId": "656d074bf124c6052e19895a_656d084cf124c6052e1989c2"
+}
