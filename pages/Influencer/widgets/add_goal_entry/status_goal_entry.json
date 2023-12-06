@@ -1,0 +1,57 @@
+{
+    "mobileBottomRow": 14,
+    "widgetName": "status_goal_entry",
+    "displayName": "Category Slider",
+    "iconSVG": "/static/media/icon.f4e7e4a6fc4a57659f2d2e736486e335.svg",
+    "labelText": "Status",
+    "searchTags": ["range"],
+    "topRow": 7,
+    "bottomRow": 15,
+    "parentRowSpace": 10,
+    "labelWidth": 5,
+    "type": "CATEGORY_SLIDER_WIDGET",
+    "hideCard": false,
+    "mobileRightColumn": 41,
+    "defaultOptionValue": "not started",
+    "animateLoading": true,
+    "parentColumnSpace": 6.9375,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 30,
+    "dynamicBindingPathList": [{"key": "accentColor"}],
+    "shouldTruncate": false,
+    "labelPosition": "Top",
+    "options": [
+        {
+            "label": "not started",
+            "value": "not started"
+        },
+        {
+            "label": "in progress",
+            "value": "in progress"
+        },
+        {
+            "label": "achieved",
+            "value": "achieved"
+        }
+    ],
+    "isDisabled": false,
+    "key": "mipstuh4ue",
+    "labelTextSize": "0.875rem",
+    "isDeprecated": false,
+    "rightColumn": 62,
+    "widgetId": "6j4um4xh4c",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": true,
+    "sliderSize": "m",
+    "shouldScroll": false,
+    "version": 1,
+    "parentId": "k5t8ll2kjx",
+    "tags": ["Sliders"],
+    "labelAlignment": "left",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 6,
+    "responsiveBehavior": "fill",
+    "mobileLeftColumn": 1,
+    "showMarksLabel": true
+}

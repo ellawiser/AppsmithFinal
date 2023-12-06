@@ -1,0 +1,7 @@
+{
+	"username": {{appsmith.store.user.username}},
+	"datetimeStarted": {{dateUtils.formatDatetimeForDB(start_time.formattedDate)}},
+	"datetimeEnded": {{dateUtils.formatDatetimeForDB(end_time.formattedDate)}},
+	"REMTime": {{rem.text}},
+	"NREMTime": {{nrem.text}}
+}

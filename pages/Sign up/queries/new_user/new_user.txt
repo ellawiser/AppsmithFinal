@@ -1,0 +1,15 @@
+{
+	"username": {{sign_up.formData.username}},
+	"first_name": {{sign_up.formData["first name"]}},
+	"last_name": {{sign_up.formData["last name"]}},
+	"birthday":{{sign_up.formData["birthday"]}},
+	"email":{{sign_up.formData.email}},
+	"phone":{{sign_up.formData["phone number"]}},
+	"sex":{{sign_up.formData.sex}},
+	"street":{{sign_up.formData["street address"]}},
+	"state":{{sign_up.formData.state}},
+	"zip":{{sign_up.formData.zip}},
+	"country":{{sign_up.formData.country}},
+	"height":{{sign_up.formData["height (in inches)"]}},
+	"weight":{{sign_up.formData.weight}},
+}
