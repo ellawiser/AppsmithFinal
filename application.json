@@ -1,36 +1,8 @@
 {
   "pages": [
     {
-      "id": "Dashboard",
-      "isDefault": false
-    },
-    {
-      "id": "Home",
-      "isDefault": false
-    },
-    {
-      "id": "Sign up",
+      "id": "Page1",
       "isDefault": true
-    },
-    {
-      "id": "Dietitian",
-      "isDefault": false
-    },
-    {
-      "id": "Influencer",
-      "isDefault": false
-    },
-    {
-      "id": "Recipe",
-      "isDefault": false
-    },
-    {
-      "id": "Workouts",
-      "isDefault": false
-    },
-    {
-      "id": "Influencer analytics",
-      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -39,27 +11,10 @@
   "unpublishedApplicationDetail": {
     "appPositioning": {
       "type": "FIXED"
-    },
-    "navigationSetting": {
-      "showNavbar": true,
-      "orientation": "top",
-      "navStyle": "inline",
-      "position": "static",
-      "itemStyle": "text",
-      "colorStyle": "light",
-      "logoAssetId": "",
-      "logoConfiguration": "logoAndApplicationTitle",
-      "showSignIn": true
     }
   },
-  "color": "#EAEDFB",
-  "icon": "medal",
-  "unpublishedAppLayout": {
-    "type": "FLUID"
-  },
-  "publishedAppLayout": {
-    "type": "FLUID"
-  },
+  "color": "#D9E7FF",
+  "icon": "pie-chart",
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
