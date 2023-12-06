@@ -1,0 +1,4 @@
+{
+	"username": {{appsmith.store.user.username}},
+	"goalID": {{putUtils.getGoalID(appsmith.store.user.username, pick_goal_to_rm.selectedOptionValue)}}
+}

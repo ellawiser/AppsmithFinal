@@ -1,0 +1,14 @@
+{
+	"username": {{appsmith.store.user.username}},
+	"firstName": {{putUtils.put(inp_updateFirstName.text, appsmith.store.user.firstName)}},
+	"lastName": {{putUtils.put(inp_updateLastName.text, appsmith.store.user.lastName)}},
+	"birthday": {{putUtils.put(dateUtils.formatDateForDB(input_updatebday), dateUtils.formatDateForDB(appsmith.store.user.birthday))}},
+	"email": {{putUtils.put(inp_updateEmail.text, appsmith.store.user.email)}},
+	"phone": {{putUtils.put(inp_updatePhone.text, appsmith.store.user.phone)}},
+	"street": {{putUtils.put(inp_update_address.text, appsmith.store.user.street)}},
+	"state": {{putUtils.put(input_state.text, appsmith.store.user.state)}},
+	"zip": {{putUtils.put(inp_zip.text, appsmith.store.user.zip)}},
+	"country": {{putUtils.put(inp_country.text, appsmith.store.user.country)}},
+	"height": {{putUtils.put(height_edit.text, appsmith.store.user.height)}},
+	"weight": {{putUtils.put(weight_edit.text, appsmith.store.user.weight)}},
+};

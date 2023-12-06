@@ -1,0 +1,5 @@
+{
+	"username": {{appsmith.store.user.username}},
+	"description": {{add_goal_desc.text}},
+	"status": {{status_goal_entry.value}}
+}

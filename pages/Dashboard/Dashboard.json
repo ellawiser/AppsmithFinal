@@ -1,0 +1,149 @@
+{
+  "unpublishedPage": {
+    "name": "Dashboard",
+    "slug": "dashboard",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 950,
+          "containerStyle": "none",
+          "snapRows": 128,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 87,
+          "minHeight": 1300,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Dashboard_Utils.transformGoalData",
+              "name": "Utils.transformGoalData",
+              "collectionId": "Dashboard_Utils",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  return getGoals.data.map(item => ({\n    \"x\": item.description,\n    \"y\": putUtils.statusToInt(item.status)\n  }));\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Dashboard_getGoals",
+              "name": "getGoals",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.user.username"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Dashboard_getMacros",
+              "name": "getMacros",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.user.username"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Dashboard_getSleep",
+              "name": "getSleep",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.user.username"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Dashboard_getSteps",
+              "name": "getSteps",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.user.username"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Dashboard_Utils.transformSleepData",
+              "name": "Utils.transformSleepData",
+              "collectionId": "Dashboard_Utils",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  return getSleep.data.map(item => ({\n    \"x\": dateUtils.formatDate(item.datetimeStarted),\n    \"y\": item.REMTime\n  }));\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Dashboard_Utils.transformStepData",
+              "name": "Utils.transformStepData",
+              "collectionId": "Dashboard_Utils",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  return getSteps.data.map(item => ({\n    \"x\": dateUtils.formatDate(item.date),\n    \"y\": item.stepCount\n  }));\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Dashboard_Utils.transformMacrosData",
+              "name": "Utils.transformMacrosData",
+              "collectionId": "Dashboard_Utils",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  const data = [];\n  const calories = getMacros.data.map(item => ({\n    \"x\": dateUtils.formatDate(item.date),\n    \"y\": item.calorieCount\n  }));\n  data.push(calories);\n  const protein = getMacros.data.map(item => ({\n    \"x\": dateUtils.formatDate(item.date),\n    \"y\": item.proteinCount\n  }));\n  data.push(protein);\n  const carbs = getMacros.data.map(item => ({\n    \"x\": dateUtils.formatDate(item.date),\n    \"y\": item.carbCount\n  }));\n  data.push(carbs);\n  const fats = getMacros.data.map(item => ({\n    \"x\": dateUtils.formatDate(item.date),\n    \"y\": item.fatCount\n  }));\n  data.push(fats);\n  return data;\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Dashboard_REMUtils.REMmsg",
+              "name": "REMUtils.REMmsg",
+              "collectionId": "Dashboard_REMUtils",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  const percent = REMUtils.compareREMTime();\n  if (percent > 0) {\n    return \"Your most recent sleep was better than average by \" + percent + \"%!\";\n  } else if (percent < 0) {\n    return \"Your most recent sleep was worse than average by \" + percent + \"%\";\n  } else {\n    return \"Your most recent sleep was the same as your average.\";\n  }\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Dashboard",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "656a2c4b59702d7a81a3a129_656b5cd9a7be3402277290e3"
+}
