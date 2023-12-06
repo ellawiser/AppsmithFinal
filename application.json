@@ -23,6 +23,14 @@
     {
       "id": "Recipe",
       "isDefault": false
+    },
+    {
+      "id": "Workouts",
+      "isDefault": false
+    },
+    {
+      "id": "Influencer analytics",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -47,10 +55,10 @@
   "color": "#EAEDFB",
   "icon": "medal",
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "publishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],

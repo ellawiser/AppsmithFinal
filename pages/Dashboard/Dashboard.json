@@ -28,6 +28,7 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Dashboard_Utils.transformGoalData",
               "name": "Utils.transformGoalData",
               "collectionId": "Dashboard_Utils",
               "confirmBeforeExecute": false,
@@ -76,18 +77,6 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.store.user.username"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "name": "Utils.transformGoalData",
-              "collectionId": "Dashboard_Utils",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "function () {\n  return getGoals.data.map(item => ({\n    \"x\": item.description,\n    \"y\": putUtils.statusToInt(item.status)\n  }));\n}"
               ],
               "timeoutInMillisecond": 10000
             }

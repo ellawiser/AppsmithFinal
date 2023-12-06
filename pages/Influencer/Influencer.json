@@ -28,6 +28,19 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Influencer_Utils.transformGoalData",
+              "name": "Utils.transformGoalData",
+              "collectionId": "Influencer_Utils",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  return getGoals.data.map(item => ({\n    \"x\": item.description,\n    \"y\": putUtils.statusToInt(item.status)\n  }));\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
               "id": "Influencer_getGoals",
               "name": "getGoals",
               "confirmBeforeExecute": false,
@@ -69,17 +82,6 @@
             }
           ],
           [
-            {
-              "id": "Influencer_Utils.transformGoalData",
-              "name": "Utils.transformGoalData",
-              "collectionId": "Influencer_Utils",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "function () {\n  return getGoals.data.map(item => ({\n    \"x\": item.description,\n    \"y\": putUtils.statusToInt(item.status)\n  }));\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
             {
               "id": "Influencer_Utils.transformSleepData",
               "name": "Utils.transformSleepData",

@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 700,
+          "bottomRow": 710,
           "containerStyle": "none",
           "snapRows": 58,
           "parentRowSpace": 1,
@@ -28,11 +28,35 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Recipe_getallrecipes",
-              "name": "getallrecipes",
+              "id": "Recipe_recipe_and_diet",
+              "name": "recipe_and_diet",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Recipe_recipe_details",
+              "name": "recipe_details",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.recipeId"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Recipe_recipenutritionfacts",
+              "name": "recipenutritionfacts",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.recipeId"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
