@@ -1,0 +1,5 @@
+{
+	"username": {{appsmith.store.user.username}},
+	"date": {{dateUtils.formatDateForDB(add_steps_entry_date.selectedDate)}},
+	"stepCount": {{num_steps_add.text}}
+}

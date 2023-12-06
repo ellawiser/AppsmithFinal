@@ -1,0 +1,12 @@
+SELECT
+  *
+FROM
+  public.users
+WHERE
+  "name" ilike '%{{DietitianClients.searchText}}%'
+ORDER BY
+  "{{DietitianClients.sortOrder.column || 'id'}}" {{DietitianClients.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{DietitianClients.pageSize}}
+OFFSET
+  {{Table1.pageOffset}}
